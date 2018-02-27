@@ -1,6 +1,6 @@
 # GifTastic
 
-Click [here](http://ladymarish.github.io/GifTastic/) to see GifTastic animals game! 
+Click [here](http://ladymarish.github.io/GifTastic/) to see GifTastic animals game
 
 ## Instructions:
 
