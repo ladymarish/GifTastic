@@ -2,7 +2,7 @@
 
 body,html {
     margin:0;
-    overflow:hidden;
+    overflow-x:hidden;
 }
 
 body {
@@ -22,9 +22,24 @@ button {
     font-family: 'Julius Sans One', sans-serif;
 }
 
-.giphy {
+p {
+	position: absolute;
+	color: white;
+	background-color: black;
+	bottom: 4px;
+	right: 0;
+	font-size: 12px;
+	padding: 3px 7px;
+}
+
+.gifDiv {
 	display:inline-block;
 	margin:10px;
+	position: relative;
+}
+
+#animalButtons {
+	margin: 15px 0;
 }
 
 button:hover {
@@ -48,4 +63,12 @@ input {
     font-size:21px;
     padding:5px 25px;
     width:120px;
+}
+
+#addAnimal {
+	transition:0.2s ease-out;
+}
+
+#addAnimal:hover {
+    background-color:#D5D71C;
 }
